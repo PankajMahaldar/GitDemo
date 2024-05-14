@@ -9,6 +9,7 @@ public class SeleniumJava {
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		System.out.println(driver.getTitle());
+		System.out.println("Sample testing Git)");
 		driver.quit();
 	}
 
